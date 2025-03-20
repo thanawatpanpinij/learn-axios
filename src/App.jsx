@@ -1,8 +1,8 @@
 export default function App() {
 
   return (
-    <>
-      <h1>Hello, React!</h1>
-    </>
+    <div className="flex p-6">
+      <h1 className="text-amber-500">Hello, React!</h1>
+    </div>
   )
 }
