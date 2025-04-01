@@ -25,7 +25,7 @@ export default function App() {
                 <h1 className="mb-8 text-white text-center text-5xl font-bold">Our menu</h1>
                 <section className="relative mx-auto mb-8 w-[50%]">
                     <div className="flex justify-between mx-auto mb-4">
-                        <input className="px-4 py-2 w-[80%] bg-white rounded" type="text" onChange={(e) => setInputValue(e.target.value)} onKeyUp={fetchMeal} value={inputValue} placeholder="Search meal recipes..." />
+                        <input className="px-4 py-2 w-[80%] bg-white rounded" type="text" onChange={(e) => setInputValue(e.target.value)} onKeyUp={fetchMeal} value={inputValue} placeholder="Search meals here..." />
                         <button className="px-4 py-2 bg-gray-200 rounded-md hover:cursor-pointer" onClick={fetchMeal}>
                             Search
                         </button>
